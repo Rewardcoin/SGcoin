@@ -1,0 +1,2 @@
+debian/bin/SGcoind usr/bin
+src/SGcoind usr/lib/SGcoin

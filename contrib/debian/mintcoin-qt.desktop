@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=SGcoin
+Comment=SGcoin P2P Cryptocurrency
+Comment[fr]=SGcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=SGcoin, eşten eşe kriptografik sanal para birimi
+Comment[es]=SGcoin, una criptomoneda P2P
+Exec=/usr/bin/SGcoin-qt
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/bitcoin80.xpm
+MimeType=x-scheme-handler/SGcoin;
+Categories=Office;
