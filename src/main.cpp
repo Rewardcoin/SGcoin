@@ -940,7 +940,7 @@ int generateMTRandom(unsigned int s, int range)
 // miner's coin base reward based on nBits
 int64 GetProofOfWorkReward(int nHeight, int64 nFees, uint256 prevHash)
 {
-	int64 nSubsidy =  0* COIN;
+	int64 nSubsidy =  1000* COIN;
 
 	if(nHeight == 1)
 	{
@@ -960,13 +960,7 @@ int64 GetProofOfWorkReward(int nHeight, int64 nFees, uint256 prevHash)
 	// Subsidy is cut in half every week or 20160 blocks, which will occur approximately every month
 	nSubsidy >>= (nHeight / 20160); 
 */
-    return nSubsidy + nFees;
-   if(nHeight <= 700000)
-    {
-        nSubsidy = 1000 * COIN;	// 1000 coins per block for the 700000 blocks.
-        return nSubsidy + nFees;
-    }
-
+ 
     return nSubsidy + nFees;
 }
 
