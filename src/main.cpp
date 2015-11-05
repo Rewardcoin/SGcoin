@@ -988,7 +988,7 @@ int64 GetProofOfStakeReward(int64 nCoinAge, unsigned int nBits, unsigned int nTi
 }
 
 static const int64 nTargetTimespan = 30 * 30;  
-static const int64 nTargetSpacingWorkMax = 1 * nStakeTargetSpacing; 
+static const int64 nTargetSpacingWorkMax = 3 * nStakeTargetSpacing; 
 
 //
 // maximum nBits value could possible be required nTime after
